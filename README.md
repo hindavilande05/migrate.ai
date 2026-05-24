@@ -1,6 +1,6 @@
 # MigrateAI — Phase 1
 
-Java Spring Boot → Go migration tool powered by Claude + ChromaDB (RAG).
+Java Spring Boot → Go migration tool powered by groq + ChromaDB (RAG).
 
 ![UI](ui_images/UI-upload-zip.png)
 ![UI2](ui_images/UI-stages.png)
@@ -41,7 +41,7 @@ migrate-ai/
 
 - Python 3.11+
 - Node.js 18+
-- An Anthropic API key
+- An groq API key
 
 ## Setup & Run
 
