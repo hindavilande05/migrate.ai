@@ -2,6 +2,9 @@
 
 Java Spring Boot → Go migration tool powered by Claude + ChromaDB (RAG).
 
+![UI](ui_images/UI-upload-zip.png)
+![UI2](ui_images/UI-stages.png)
+
 ## Project Structure
 
 ```
@@ -33,6 +36,7 @@ migrate-ai/
     └── package.json
 ```
 
+
 ## Prerequisites
 
 - Python 3.11+
@@ -59,5 +63,3 @@ cd frontend
 npm install
 npm run dev                     # starts on http://localhost:5173
 ```
-
-Open http://localhost:5173, upload a Java Spring Boot ZIP, watch the magic.
